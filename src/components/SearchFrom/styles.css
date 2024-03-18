@@ -1,26 +1,39 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .searchForm {
     display: flex;
-    justify-content: center;
-    padding: 20px;
-  }
+    justify-content: space-between;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
 
 .searchForm form {
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
   
 .searchForm input {
     padding: 10px;
-    border: 1px solid gainsboro;
-    border-radius: 10px;
+    outline-width: 0;
+    border: none;
+    padding: 0;
 }
 
 .searchForm input[type="text"] {
     width: 300px;
 }
-  
-.searchForm input[type="submit"] {
-    width: 150px;
+
+.searchForm button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: gainsboro;
 }
-  
+

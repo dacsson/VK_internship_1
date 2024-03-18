@@ -1,0 +1,56 @@
+.modal {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ccc;
+    border-radius: 3px;
+}
+
+.modal .dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid gainsboro;
+    background-color: azure;
+}
+
+.modal .dialog button {
+    margin-top: 10px;
+    width: 100px;
+    bottom: 0;  
+    background-color: #dd2d2d;
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.modal .dialog h3 {
+    margin-top: 5px;
+}
+
+.modal .colored {
+    display: flex;
+    width: 250px;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 50px;
+    background-color: #dd2d2d;
+    border: 1px solid #dd2d2d;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}

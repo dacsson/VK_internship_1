@@ -1,29 +1,17 @@
 export const mockUsers = [
   {
     id: 1,
-    firstName: "Terry",
-    lastName: "Medhurst",
-    image: "https://robohash.org/Terry.png?set=set4",
-    address: {
-      city: "Washington",
-    },
+    first_name: "Terry",
+    last_name: "Medhurst",
   },
   {
     id: 2,
-    firstName: "Terry",
-    lastName: "Medhurst",
-    image: "https://robohash.org/Terry.png?set=set4",
-    address: {
-      city: "Washington",
-    },
+    first_name: "Terry",
+    last_name: "Medhurst",
   },
   {
     id: 3,
-    firstName: "Terry",
-    lastName: "Medhurst",
-    image: "https://robohash.org/Terry.png?set=set4",
-    address: {
-      city: "Washington",
-    },
+    first_name: "Terry",
+    last_name: "Medhurst",
   },
 ];

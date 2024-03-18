@@ -1,17 +1,17 @@
-.results {
+.history {
     width: 600px;
     height: fit-content;
     padding: 10px;
-    border-radius: 5px;    
+    border-radius: 5px;
     border: 1px solid gainsboro;
 }
 
-.results .header {
+.history .header {
     border-bottom: 1px solid gainsboro;
     text-align: center;
 }
 
-.results .usersList {
+.history .usersList {
     margin-top: 10px;
     display: flex;
     align-items: center;

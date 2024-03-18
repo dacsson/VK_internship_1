@@ -1,12 +1,18 @@
+import { IUser } from "../../@types/types";
 import "./style.css";
 
-export function UserCard(props) {
+interface IUCardProps
+{
+  user: IUser
+}
+
+export function UserCard({user} : IUCardProps) {
   return (
     <div className="userCard">
-      <img className="userPic" src={props.image} />
+      <img className="userPic" src={user.image} />
       <div className="userInfo">
-        <div>{`${props.firstName} ${props.lastName}`}</div>
-        <div>{props.address.city}</div>
+        <div>{user.first_name} {user.last_name}</div>
+        <div>{user.age} {user.email}</div>
       </div>
     </div>
   );
